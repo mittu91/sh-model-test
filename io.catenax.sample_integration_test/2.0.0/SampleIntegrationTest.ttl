@@ -174,8 +174,3 @@
    samm:description "Human readable label of a property."@en ;
    samm:characteristic samm-c:MultiLanguageText ;
    samm:exampleValue "diameter"@en .
-
-:PartNameCharacteristic a samm:Characteristic;
- samm:preferredName "Part Name characteristic"@en;
- samm:description "Part Name in string format from the respective system in the value chain"@en;
- samm:dataType xsd:string.
